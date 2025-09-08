@@ -179,7 +179,7 @@ node --expose-gc boz.js
 ```
 ┌─────────────────────────────┐
 │  📱 Abre o WhatsApp          │
-│  ⚙️  Dispositivos Vinculad0 │  
+│  ⚙️  Dispositivos Vinculado │  
 │  📷 Escaneia o QR           │
 │  🎉 SUCESSO TOTAL!          │
 └─────────────────────────────┘
