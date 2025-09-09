@@ -2480,7 +2480,7 @@ async function startBot() {
     
     
     const hasGemini = genAI ? '✅' : '❌';
-    const hasYouTubeAPI = YOUTUBE_API_KEY !== 'AIzaSyDNoMs5QJ5Ehkth8XijgTJtYrW1E5UvQ7U' ? '✅' : '⚠️ Padrão';
+    const hasYouTubeAPI = YOUTUBE_API_KEY !== 'sua-api-aqui' ? '✅' : '⚠️ Padrão';
     const hasCookies = fs.existsSync(YOUTUBE_COOKIES_FILE) ? '✅' : '❌';
     
     const statusMessage = `
@@ -3641,4 +3641,5 @@ logger.info(`   - YouTube API: ${YOUTUBE_API_KEY !== 'AIzaSyDNoMs5QJ5Ehkth8XijgT
 
 if (typeof global.gc === 'undefined') {
     logger.warn('⚠️ Garbage collection não está exposta. Execute com --expose-gc para melhor gerenciamento de memória');
+
 }
